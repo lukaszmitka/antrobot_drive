@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>antrobot_drive</name>
+  <version>0.0.1</version>
+  <description>Package for communication with antrobot drive controller</description>
+
+  <maintainer email="mitka@agh.edu.pl">Łukasz Mitka</maintainer>
+
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>tf</run_depend>
+  <build_depend>nav_msgs</build_depend>
+  <run_depend>nav_msgs</run_depend>
+
+  <export>
+  </export>
+</package>
