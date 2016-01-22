@@ -59,6 +59,9 @@ int main(int argc, char **argv) {
       is_antrobot = false;
    }
 
+
+   std::vector<double> response(3, 0);
+   send_command("!RST", &response);
    //const string directions[] = {"WW", "NW", "NN", "NE", "EE", "SE", "SS", "SW"};
    //const int direction_id[] = {6, 7, 8, 9, 10, 11, 12, 13};
    //string values[22];
